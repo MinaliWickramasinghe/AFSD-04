@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+.nav1{
+    display: inline;
+    float: left;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.nav1:hover{
+    background-color: rgb(2, 2, 77);
+}
+
+.user{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.userdetail{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.prjct{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+}
+
+.grid2{
+    border: 2px solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: relative;
+    margin-left: 15px;
+    width: 700px;
+    right: 0;
+}
+
+.text-area{
+    position: absolute;
+    margin: 20px;
+    width: 650px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#table{
+    border: 1px solid rgb(129, 126, 126);
+    width: 100vw;
+    height: 10px;
+}
+
+#tablehead{
+    background-color: rgb(109, 179, 5);
+    color: white;
+    margin: 5px;
+}
+
+.col{
+    background-color: rgb(185, 181, 181);
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+.btn:hover{
+    background-color: blue;
+    padding: 12px 27px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 15px;
+}
+
+.text{
+    padding: 5px;
+    margin: none;
+}
+
+.hotline{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 5px;
+    z-index: 1;
+}
+
+.footer{
+    border: 2px solid black;
+    width: 100vw;
+    padding: 0;
+    text-align: center;
+}

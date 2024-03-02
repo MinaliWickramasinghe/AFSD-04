@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+.nav1{
+    display: inline;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.nav1:hover{
+    background-color: rgb(2, 2, 77);
+}
+
+.picture{
+    width: 100vw;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(6, 196, 243);
+}
+.grid2{
+    position: relative;
+}
+
+.para{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: relative;
+    margin: 15px;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color:  rgb(6, 196, 243);
+}
+.btn:hover{
+    background-color: rgb(80, 172, 247);
+    border-color: blue;
+    padding: 8px;
+}
+
+.team{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.doctors{
+    width: 750px;
+    height: 750px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+    background-color: white;
+}
+
+.special{
+    text-align: center;
+}
+.rates{
+    position: relative;
+    width: 100vw;
+    height: 150px;
+    border: 2px;
+    display: inline-block;
+}
+.rateBox{
+    width: 150px;
+    height: 100px;
+    /* top: 5px; */
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+.rateBox:hover{
+    background-color: blue;
+    width: 155px;
+    height: 105px;
+    color: white;
+    border: 2px solid blue;
+}

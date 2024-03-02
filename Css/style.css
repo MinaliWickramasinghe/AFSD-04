@@ -1,0 +1,75 @@
+#acpt{
+    background-color: brown;
+    color: white;
+    border: 20px solid black;
+}
+
+/* Type selector */
+h2 {
+    background-color: rgb(18, 22, 238);
+}
+h3{
+    background-color: orange;
+    color: blue;
+}
+
+/* class Selector */
+.title{
+    background-color: pink;
+    color: red;
+}
+
+/* id selector */
+#acpt2{
+    background-color: black;
+    color: white;
+}
+
+/* Parent-Child selector */
+body > h5{
+    background-color: aqua;
+    color: red;
+}
+
+body > div > h5{
+    background-color: yellow;
+    color: blue;
+}
+
+/* universal selector */
+/* *{
+    background-color: rgb(46, 75, 4);
+} */
+
+/* Box Model */
+.box-container{
+    background-color: rgb(221, 129, 8);
+    width: 800px;
+}
+.box-model{
+    background-color: blueviolet;
+    margin: 40px;
+    border: 40px solid black;
+    padding: 50px;
+}
+
+.btn{
+    background-color: red;
+    margin: 50px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+    border: none;
+    font-size: large;
+}
+
+#name{
+    background-color: blue !important;
+}
+.name1{
+    background-color: blueviolet !important;
+}
